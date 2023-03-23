@@ -1,0 +1,22 @@
+.identica__create-place {
+    margin: 0 0 0 auto;
+    padding: 0;
+    min-width: 150px;
+    min-height: 50px;
+    border: 2px solid #FFF;
+    border-radius: 2px;
+    transition: all 0.3s ease;
+    background: transparent url('../../../images/Add.png') no-repeat center;
+  }
+  
+  .identica__create-place:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 644px) {
+    .identica__create-place {
+      min-width: 282px;
+      background-size: 16px;
+    }
+  }
