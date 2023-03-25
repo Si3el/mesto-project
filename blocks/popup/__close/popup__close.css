@@ -5,12 +5,13 @@
     width: 32px;
     height: 32px;
     border: 0;
-    background: url('../../../images/Close\ Icon.png') no-repeat;
+    background: url('../../../images/close\ s.svg') no-repeat;
+    background-size: contain;
     transition: all 0.3s ease;
   }
   
   .popup__close:hover {
-    opacity: 0.5;
+    opacity: 0.6;
     cursor: pointer;
   }
   

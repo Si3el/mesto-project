@@ -1,8 +1,6 @@
 .cards__item {
-    max-width: 282px;
+    width: 282px;
     transition: all 0.4s ease;
   }
   
-  .cards__item:hover {
-    opacity: 0.8;
-  }
+ 

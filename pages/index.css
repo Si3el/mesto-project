@@ -1,12 +1,11 @@
-@import url('../vendor/normalize.htm');
-@import url('../vendor/fonts/fonts.css');
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts.css');
 
 @import url('../blocks/page/page.css');
 @import url('../blocks/content/content.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__logo/header__logo.css');
 @import url('../blocks/identica/identica.css');
-@import url('../blocks/identica/__photo-field/identica__photo-field.css');
 @import url('../blocks/identica/__photo/identica__photo.css');
 @import url('../blocks/identica/__info/identica__info.css');
 @import url('../blocks/identica/__name/identica__name.css');
@@ -18,7 +17,6 @@
 @import url('../blocks/cards/__image/cards__image.css');
 @import url('../blocks/cards/__info/cards__info.css');
 @import url('../blocks/cards/__description/cards__description.css');
-@import url('../blocks/cards/__like-field/cards__like-field.css');
 @import url('../blocks/cards/__like/cards__like.css');
 @import url('../blocks/cards/__like/_active/cards__like_active.css');
 @import url('../blocks/footer/footer.css');

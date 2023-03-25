@@ -1,111 +1,116 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mesto</title>
-    <link rel="stylesheet" href="./pages/index.css">
-</head>
-<body class="page">
-    <div class="content">
-        <header class="header">
-            <img src="./images/Mesto.png" alt="Логотип Место" class="header__logo">
-        </header>
-    </div>
-    
-    <main>
-        <section class="identica">
-            <div class="identica__photo-field">
-                <img src="./images/Kusto.jpg" alt="Аватар" class="identica__photo">
-            </div>
-            <div class="identica__info">
-                <h1 class="indentica__name">Жак-Ив Кусто</h1>
-                <button class="identica__change" type="button" label="Редактировать профиль"></button>
-                <p class="identica__profession">Исследователь океана</p> 
-            </div>
-            <button class="identica__create-place" type="button" aria-label="Добавить место"></button>
-        </section>
 
-        <section class="cards">
-            <div class="cards__item">
-                <img src="./images/most-zolotye-vorota.jpg" class="cards__image" alt="Золотые ворота">
-                <div class="cards__info">
-                  <h2 class="cards__description">Сан-Франциско</h2>
-                  <div class="cards__like-field">
-                    <button type="button" class="cards__like" label="Лайк"></button>
-                  </div>
-                </div>
-              </div>
-              <div class="cards__item">
-                <img src="./images/tokio.jpeg" class="cards__image" alt="Токио">
-                <div class="cards__info">
-                  <h2 class="cards__description">Токио</h2>
-                  <div class="cards__like-field">
-                    <button type="button" class="cards__like" label="Лайк"></button>
-                  </div>
-                </div>
-              </div>
-              <div class="cards__item">
-                <img src="./images/Machu-Pikchu.webp" class="cards__image" alt="Мачу Пикчу">
-                <div class="cards__info">
-                  <h2 class="cards__description">Мачу Пикчу</h2>
-                  <div class="cards__like-field">
-                    <button type="button" class="cards__like" label="Лайк"></button>
-                  </div>
-                </div>
-              </div>
-              <div class="cards__item">
-                <img src="./images/Greenland.jpg" class="cards__image" alt="Гренландия">
-                <div class="cards__info">
-                  <h2 class="cards__description">Грендландия</h2>
-                  <div class="cards__like-field">
-                    <button type="button" class="cards__like" label="Лайк"></button>
-                  </div>
-                </div>
-              </div>
-              <div class="cards__item">
-                <img src="./images/New-Zealand-6.jpg" class="cards__image" alt="Новая Зеландия">
-                <div class="cards__info">
-                  <h2 class="cards__description">Новая Зеландия</h2>
-                  <div class="cards__like-field">
-                    <button type="button" class="cards__like" label="Лайк"></button>
-                  </div>
-                </div>
-              </div>
-              <div class="cards__item">
-                <img src="./images/baikal.jpg" class="cards__image" alt="Байкал">
-                <div class="cards__info">
-                  <h2 class="cards__description">Байкал</h2>
-                  <div class="cards__like-field">
-                    <button type="button" class="cards__like" label="Лайк"></button>
-                  </div>
-                </div>
-              </div>
-        </section>
-      </main>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title lang="en">Mesto</title>
+  <link rel="stylesheet" href="./pages/index.css">
+  <meta name="description" content="Проект третий">
+  <meta name="author" content="Фимин Сергей">
+</head>
+
+<body class="page">
+  <div class="content">
+    <header class="header">
+      <img src="./images/logo.svg" alt="Логотип Место" class="header__logo">
+    </header>
+
+
+    <main>
+      <section class="identica">
+        
+        <img src="./images/Kusto.jpg" alt="Аватар" class="identica__photo">
+        
+        <div class="identica__info">
+          <h1 class="identica__name">Жак-Ив Кусто</h1>
+          <button class="identica__change" type="button" aria-label="Кнопка редактирования профиля"></button>
+          <p class="identica__profession">Исследователь океана</p>
+        </div>
+        <button class="identica__create-place" type="button" aria-label="Кнопка добавления места"></button>
+      </section>
+
+      <section class="cards">
+        <div class="cards__item">
+          <img src="./images/most-zolotye-vorota.jpg" class="cards__image" alt="Золотые ворота">
+          <div class="cards__info">
+            <h2 class="cards__description">Сан-Франциско</h2>
+            
+            <button type="button" class="cards__like" aria-label="Кнопка лайк"></button>
+            
+          </div>
+        </div>
+        <div class="cards__item">
+          <img src="./images/tokio.jpeg" class="cards__image" alt="Токио">
+          <div class="cards__info">
+            <h2 class="cards__description">Токио</h2>
+            
+            <button type="button" class="cards__like" aria-label="Кнопка лайк"></button>
+            
+          </div>
+        </div>
+        <div class="cards__item">
+          <img src="./images/Machu-Pikchu.webp" class="cards__image" alt="Мачу Пикчу">
+          <div class="cards__info">
+            <h2 class="cards__description">Мачу Пикчу</h2>
+            
+            <button type="button" class="cards__like" aria-label="Кнопка лайк"></button>
+            
+          </div>
+        </div>
+        <div class="cards__item">
+          <img src="./images/Greenland.jpg" class="cards__image" alt="Гренландия">
+          <div class="cards__info">
+            <h2 class="cards__description">Грендландия</h2>
+            
+            <button type="button" class="cards__like cards__like_active" aria-label="Кнопка лайк"></button>
+            
+          </div>
+        </div>
+        <div class="cards__item">
+          <img src="./images/New-Zealand-6.jpg" class="cards__image" alt="Новая Зеландия">
+          <div class="cards__info">
+            <h2 class="cards__description">Новая Зеландия</h2>
+            
+            <button type="button" class="cards__like" aria-label="Кнопка лайк"></button>
+            
+          </div>
+        </div>
+        <div class="cards__item">
+          <img src="./images/baikal.jpg" class="cards__image" alt="Байкал">
+          <div class="cards__info">
+            <h2 class="cards__description">Байкал</h2>
+            
+            <button type="button" class="cards__like" aria-label="Кнопка лайк"></button>
+            
+          </div>
+        </div>
+      </section>
+    </main>
 
     <footer class="footer">
-        <p class="footer__signature">© 2023. Sergei Fimin</p>
+      <p class="footer__signature" lang="en">© 2023. Sergei Fimin</p>
     </footer>
+  </div>
 
-
-    <div class="popup" aria-label="Окно редактирования профиля">
-      <div class="popup__container">
-        <button tton type="button" class="popup__close" aria-label="Закрыть форму"></button>
-        <h3 class="popup__name">Редактировать профиль</h3>
-        <form class="popup__form" name="profile">
-          <label for="username-input" class="popup__label">
-            <input id="username-input" type="text" class="popup__input"
-                   name="username" required placeholder="Ваше имя" minlength="2" maxlength="40">
-          </label>
-          <label for="description-input" class="popup__label">
-            <input id="description-input" type="text" class="popup__input"
-                   name="description" required placeholder="Ваш род занятий" minlength="2" maxlength="200">
-          </label>
-          <button type="submit" class="popup__submit" aria-label="Сохранить">Сохранить</button>
-        </form>
-      </div>
+  <div class="popup popup_opened" aria-label="Окно редактирования профиля">
+    <div class="popup__container">
+      <button type="button" class="popup__close" aria-label="Закрыть форму"></button>
+      <h3 class="popup__name">Редактировать профиль</h3>
+      <form class="popup__form" name="profile">
+        <label for="username-input" class="popup__label">
+          <input id="username-input" type="text" class="popup__input popup__input_item_name" name="username" required placeholder="Ваше имя"
+            minlength="2" maxlength="40">
+        </label>
+        <label for="description-input" class="popup__label">
+          <input id="description-input" type="text" class="popup__input popup__input_item_description" name="description" required
+            placeholder="Ваш род занятий" minlength="2" maxlength="200">
+        </label>
+        <button type="submit" class="popup__submit" aria-label="Сохранить">Сохранить</button>
+      </form>
     </div>
+  </div>
 </body>
+
 </html>

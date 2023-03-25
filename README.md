@@ -61,7 +61,7 @@
 
 ### **Адрес проекта**
 
-Проект расположен на [GitHub](https://si3el.github.io/russian-travel/index.html)
+Проект расположен на [GitHub](https://si3el.github.io/mesto-project/index.html)
 
 ### **Планы**
 

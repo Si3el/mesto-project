@@ -1,11 +1,19 @@
 .header__logo {
     margin: 0 auto 41px auto;
-    max-width: 142px;
+    width: 142px;
+    height: 33px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    object-fit: cover;
+    aspect-ratio: 1/1;
   }
   
-  @media screen and (max-width: 644px) {
+  @media screen and (max-width: 425px) {
     .header__logo {
       margin: 0 auto 31px 27px;
-      max-width: 103px;
+      width: 103px;
+      height: 25px;
     }
   }
