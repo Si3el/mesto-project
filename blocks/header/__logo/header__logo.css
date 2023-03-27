@@ -2,10 +2,6 @@
     margin: 0 auto 41px auto;
     width: 142px;
     height: 33px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-
     object-fit: cover;
     aspect-ratio: 1/1;
   }

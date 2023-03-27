@@ -5,7 +5,7 @@
     height: 24px;
     border: 1px solid #FFF;
     background: transparent url('../../../images/change.svg') no-repeat center;  
-    background-size: contain;
+    background-size: 10px;
     transition: all 0.3s ease;
   }
   
@@ -15,8 +15,8 @@
   
   @media screen and (max-width: 644px) {
     .identica__change {
-      min-width: 18px;
-      min-height: 18px;
+      width: 18px;
+      height: 18px;
       background-size: 7.5px;
     }
   }

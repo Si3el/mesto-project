@@ -3,7 +3,7 @@
   width: 100%;
   border: none;
 
-  border-bottom: 1px solid #00000020;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   box-sizing: border-box;
   font-size: 14px;
   line-height: 17px;

@@ -1,16 +1,11 @@
 .cards__like {
     padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;  
     margin: 0 0 5px 0;
-    min-width: 22px;
-    min-height: 19px;
+    width: 22px;
+    height: 19px;
     border: none;
     background: transparent url('../../../images/12.svg') no-repeat center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: 22px 19px;
     transition: all 0.3s ease;
   }
   

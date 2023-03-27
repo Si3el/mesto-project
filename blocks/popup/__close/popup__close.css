@@ -5,7 +5,7 @@
     width: 32px;
     height: 32px;
     border: 0;
-    background: url('../../../images/close\ s.svg') no-repeat;
+    background: url('../../../images/btbclose.svg') no-repeat;
     background-size: contain;
     transition: all 0.3s ease;
   }
